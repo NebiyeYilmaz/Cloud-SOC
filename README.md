@@ -32,10 +32,14 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
-
+![(before) nsg-malicious-allowed-in](https://github.com/NebiyeYilmaz/Cloud-SOC/assets/156943652/4a8842cb-73d4-4982-b29a-bad5b1d9e593)
+<br>
+![(before) linux-ssh-auth-fail](https://github.com/NebiyeYilmaz/Cloud-SOC/assets/156943652/7f10f588-bc08-4e21-b31e-06eb3edbb7da)
+<br>
+![(before) windows-rdp-auth-fail](https://github.com/NebiyeYilmaz/Cloud-SOC/assets/156943652/c5f71138-b775-4564-bc49-12d2e02a0f7a)
+<br>
+![(before) mssql-auth-fail](https://github.com/NebiyeYilmaz/Cloud-SOC/assets/156943652/50c10c72-ed13-4657-9469-477dbd460045)
+<br>
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
